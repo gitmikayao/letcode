@@ -1,4 +1,4 @@
-var findPoisonedDuration = function (timeSeries, duration) {
+var findPoisonedDuration = function (timeSeries: Array<number>, duration: number) {
   const len = timeSeries.length;
   let time = 0;
   let cur = 0;
@@ -7,7 +7,7 @@ var findPoisonedDuration = function (timeSeries, duration) {
     return 0;
   }
 
-  while (cur + 1 < len) {
+  while (cur < len - 1) {
     time += Math.min(timeSeries[cur + 1] - timeSeries[cur], duration);
     cur++;
   }
