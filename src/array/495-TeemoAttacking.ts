@@ -1,4 +1,4 @@
-var findPoisonedDuration = function (timeSeries: Array<number>, duration: number) {
+const findPoisonedDuration = function (timeSeries: Array<number>, duration: number) {
   const len = timeSeries.length;
   let time = 0;
   let cur = 0;

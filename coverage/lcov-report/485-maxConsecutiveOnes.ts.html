@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for 495-teemoAttacking.ts</title>
+    <title>Code coverage report for 485-maxConsecutiveOnes.ts</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="prettify.css" />
     <link rel="stylesheet" href="base.css" />
@@ -19,20 +19,20 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="index.html">All files</a> 495-teemoAttacking.ts</h1>
+        <h1><a href="index.html">All files</a> 485-maxConsecutiveOnes.ts</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">91.67% </span>
+                <span class="strong">92.86% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>11/12</span>
+                <span class='fraction'>13/14</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">50% </span>
+                <span class="strong">75% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>1/2</span>
+                <span class='fraction'>3/4</span>
             </div>
         
             
@@ -44,9 +44,9 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">91.67% </span>
+                <span class="strong">92.31% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>11/12</span>
+                <span class='fraction'>12/13</span>
             </div>
         
             
@@ -75,43 +75,55 @@
 <a name='L16'></a><a href='#L16'>16</a>
 <a name='L17'></a><a href='#L17'>17</a>
 <a name='L18'></a><a href='#L18'>18</a>
-<a name='L19'></a><a href='#L19'>19</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">23x</span>
+<span class="cline-any cline-yes">17x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-yes">6x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">const findPoisonedDuration = function (timeSeries: Array&lt;number&gt;, duration: number) {
-  const len = timeSeries.length;
-  let time = 0;
-  let cur = 0;
-&nbsp;
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">const findMaxConsecutiveOnes = function (nums: Array&lt;number&gt;) {
+  const len = nums.length;
   <span class="missing-if-branch" title="if path not taken" >I</span>if (len === 0) {
 <span class="cstat-no" title="statement not covered" >    return 0;</span>
   }
 &nbsp;
-  while (cur &lt; len - 1) {
-    time += Math.min(timeSeries[cur + 1] - timeSeries[cur], duration);
-    cur++;
+  let count = 0;
+  let max = 0;
+  for (let i = 0; i &lt; len; i++) {
+    if (nums[i] === 1) {
+      count++
+    } else {
+      max = Math.max(count, max);
+      count = 0;
+    }
   }
 &nbsp;
-  time += duration;
-  return time;
+  // the last element is '1'; 
+  return Math.max(count, max);
+&nbsp;
 };
 &nbsp;
-export default findPoisonedDuration;</pre></td></tr></table></pre>
+export default findMaxConsecutiveOnes;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
