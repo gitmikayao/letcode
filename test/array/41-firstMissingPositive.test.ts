@@ -1,5 +1,5 @@
 import { test, expect } from '@jest/globals';
-import { firstMissingPositive } from '@src/array/42-firstMissingPositive';
+import { firstMissingPositive } from '@src/array/41-firstMissingPositive';
 
 test('first missing positive', () => {
   expect(firstMissingPositive([1, 2, 0])).toBe(3);
