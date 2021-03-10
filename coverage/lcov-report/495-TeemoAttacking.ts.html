@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">91.67% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>0/12</span>
+                <span class='fraction'>11/12</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">50% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/2</span>
+                <span class='fraction'>1/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/1</span>
+                <span class='fraction'>1/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">91.67% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>0/12</span>
+                <span class='fraction'>11/12</span>
             </div>
         
             
@@ -55,7 +55,7 @@
             Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
         </p>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -75,50 +75,50 @@
 <a name='L16'></a><a href='#L16'>16</a>
 <a name='L17'></a><a href='#L17'>17</a>
 <a name='L18'></a><a href='#L18'>18</a>
-<a name='L19'></a><a href='#L19'>19</a></td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<a name='L19'></a><a href='#L19'>19</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const findPoisonedDuration = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >function (t</span>imeSeries: Array&lt;number&gt;, duration: number) {</span>
-  const len = <span class="cstat-no" title="statement not covered" >timeSeries.length;</span>
-  let time = <span class="cstat-no" title="statement not covered" >0;</span>
-  let cur = <span class="cstat-no" title="statement not covered" >0;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">const findPoisonedDuration = function (timeSeries: Array&lt;number&gt;, duration: number) {
+  const len = timeSeries.length;
+  let time = 0;
+  let cur = 0;
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  if (len === 0) {</span>
+  <span class="missing-if-branch" title="if path not taken" >I</span>if (len === 0) {
 <span class="cstat-no" title="statement not covered" >    return 0;</span>
   }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  while (cur &lt; len - 1) {</span>
-<span class="cstat-no" title="statement not covered" >    time += Math.min(timeSeries[cur + 1] - timeSeries[cur], duration);</span>
-<span class="cstat-no" title="statement not covered" >    cur++;</span>
+  while (cur &lt; len - 1) {
+    time += Math.min(timeSeries[cur + 1] - timeSeries[cur], duration);
+    cur++;
   }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  time += duration;</span>
-<span class="cstat-no" title="statement not covered" >  return time;</span>
+  time += duration;
+  return time;
 };
 &nbsp;
-<span class="cstat-no" title="statement not covered" >export default findPoisonedDuration;</span></pre></td></tr></table></pre>
+export default findPoisonedDuration;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Tue Mar 09 2021 16:06:55 GMT+0800 (China Standard Time)
+                at Wed Mar 10 2021 18:18:59 GMT+0800 (China Standard Time)
             </div>
         </div>
         <script src="prettify.js"></script>
