@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>26/26</span>
+                <span class='fraction'>0/26</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>4/4</span>
+                <span class='fraction'>0/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/2</span>
+                <span class='fraction'>0/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>21/21</span>
+                <span class='fraction'>0/21</span>
             </div>
         
             
@@ -55,7 +55,7 @@
             Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
         </p>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -93,75 +93,75 @@
 <a name='L34'></a><a href='#L34'>34</a>
 <a name='L35'></a><a href='#L35'>35</a>
 <a name='L36'></a><a href='#L36'>36</a>
-<a name='L37'></a><a href='#L37'>37</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">8x</span>
-<span class="cline-any cline-yes">8x</span>
-<span class="cline-any cline-yes">6x</span>
+<a name='L37'></a><a href='#L37'>37</a></td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">8x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
-<span class="cline-any cline-yes">6x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">8x</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export const findDuplicates = (nums: Array&lt;number&gt;): Array&lt;number&gt; =&gt; {
-  const len = nums.length;
-  const result: Array&lt;number&gt; = [];
-  for (let i = 0; i &lt; len; i++) {
-    const index = Math.abs(nums[i]) - 1;
-    if (nums[index] &gt; 0) {
-      nums[index] *= -1;
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export const <span class="cstat-no" title="statement not covered" >findDuplicates = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(</span>n</span>ums: Array&lt;number&gt;): Array&lt;number&gt; =&gt; {</span>
+  const len = <span class="cstat-no" title="statement not covered" >nums.length;</span>
+  const result: Array&lt;number&gt; = <span class="cstat-no" title="statement not covered" >[];</span>
+<span class="cstat-no" title="statement not covered" >  for (let i = <span class="cstat-no" title="statement not covered" >0;</span> i &lt; len; i++) {</span>
+    const index = <span class="cstat-no" title="statement not covered" >Math.abs(nums[i]) - 1;</span>
+<span class="cstat-no" title="statement not covered" >    if (nums[index] &gt; 0) {</span>
+<span class="cstat-no" title="statement not covered" >      nums[index] *= -1;</span>
     } else {
-      result.push(index + 1);
+<span class="cstat-no" title="statement not covered" >      result.push(index + 1);</span>
     }
   }
 &nbsp;
-  return result;
+<span class="cstat-no" title="statement not covered" >  return result;</span>
 }
 &nbsp;
-export const findDuplicates1 = (nums: Array&lt;number&gt;): Array&lt;number&gt; =&gt; {
-  const len = nums.length;
-  const result: Array&lt;number&gt; = [];
-  for (let i = 0; i &lt; len; i++) {
-    while (nums[i] !== nums[nums[i] - 1]) {
-      const temp = nums[nums[i] - 1];
-      nums[nums[i] - 1] = nums[i];
-      nums[i] = temp;
+export const <span class="cstat-no" title="statement not covered" >findDuplicates1 = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(</span>n</span>ums: Array&lt;number&gt;): Array&lt;number&gt; =&gt; {</span>
+  const len = <span class="cstat-no" title="statement not covered" >nums.length;</span>
+  const result: Array&lt;number&gt; = <span class="cstat-no" title="statement not covered" >[];</span>
+<span class="cstat-no" title="statement not covered" >  for (let i = <span class="cstat-no" title="statement not covered" >0;</span> i &lt; len; i++) {</span>
+<span class="cstat-no" title="statement not covered" >    while (nums[i] !== nums[nums[i] - 1]) {</span>
+      const temp = <span class="cstat-no" title="statement not covered" >nums[nums[i] - 1];</span>
+<span class="cstat-no" title="statement not covered" >      nums[nums[i] - 1] = nums[i];</span>
+<span class="cstat-no" title="statement not covered" >      nums[i] = temp;</span>
     }
   }
 &nbsp;
-  for (let i = 0; i &lt; len; i++) {
-    if (nums[i] !== i + 1) {
-      result.push(nums[i])
+<span class="cstat-no" title="statement not covered" >  for (let i = <span class="cstat-no" title="statement not covered" >0;</span> i &lt; len; i++) {</span>
+<span class="cstat-no" title="statement not covered" >    if (nums[i] !== i + 1) {</span>
+<span class="cstat-no" title="statement not covered" >      result.push(nums[i])</span>
     }
   }
 &nbsp;
-  return result;
+<span class="cstat-no" title="statement not covered" >  return result;</span>
 }
 &nbsp;
 &nbsp;
@@ -172,7 +172,7 @@ export const findDuplicates1 = (nums: Array&lt;number&gt;): Array&lt;number&gt; 
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Wed Mar 10 2021 18:18:59 GMT+0800 (China Standard Time)
+                at Fri Mar 12 2021 10:34:53 GMT+0800 (China Standard Time)
             </div>
         </div>
         <script src="prettify.js"></script>

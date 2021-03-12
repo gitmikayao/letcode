@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for 495-teemoAttacking.ts</title>
+    <title>Code coverage report for 41-firstMissingPositive.ts</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="prettify.css" />
     <link rel="stylesheet" href="base.css" />
@@ -19,20 +19,20 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="index.html">All files</a> 495-teemoAttacking.ts</h1>
+        <h1><a href="index.html">All files</a> 41-firstMissingPositive.ts</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">0% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>0/12</span>
+                <span class='fraction'>0/16</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">0% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/2</span>
+                <span class='fraction'>0/7</span>
             </div>
         
             
@@ -46,7 +46,7 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">0% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>0/12</span>
+                <span class='fraction'>0/13</span>
             </div>
         
             
@@ -75,43 +75,58 @@
 <a name='L16'></a><a href='#L16'>16</a>
 <a name='L17'></a><a href='#L17'>17</a>
 <a name='L18'></a><a href='#L18'>18</a>
-<a name='L19'></a><a href='#L19'>19</a></td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<a name='L19'></a><a href='#L19'>19</a>
+<a name='L20'></a><a href='#L20'>20</a>
+<a name='L21'></a><a href='#L21'>21</a>
+<a name='L22'></a><a href='#L22'>22</a>
+<a name='L23'></a><a href='#L23'>23</a>
+<a name='L24'></a><a href='#L24'>24</a></td><td class="line-coverage quiet"><span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">const findPoisonedDuration = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >function (t</span>imeSeries: Array&lt;number&gt;, duration: number) {</span>
-  const len = <span class="cstat-no" title="statement not covered" >timeSeries.length;</span>
-  let time = <span class="cstat-no" title="statement not covered" >0;</span>
-  let cur = <span class="cstat-no" title="statement not covered" >0;</span>
-&nbsp;
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">export const <span class="cstat-no" title="statement not covered" >firstMissingPositive = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(</span>n</span>ums:Array&lt;number&gt;) =&gt; {</span>
+  const len = <span class="cstat-no" title="statement not covered" >nums.length;</span>
+  // handle empty array
 <span class="cstat-no" title="statement not covered" >  if (len === 0) {</span>
-<span class="cstat-no" title="statement not covered" >    return 0;</span>
+<span class="cstat-no" title="statement not covered" >      return 1;</span>
   }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  while (cur &lt; len - 1) {</span>
-<span class="cstat-no" title="statement not covered" >    time += Math.min(timeSeries[cur + 1] - timeSeries[cur], duration);</span>
-<span class="cstat-no" title="statement not covered" >    cur++;</span>
+<span class="cstat-no" title="statement not covered" >  for (let i = <span class="cstat-no" title="statement not covered" >0;</span> i &lt; len; i++) {</span>
+<span class="cstat-no" title="statement not covered" >      while (nums[i] !== nums[nums[i] - 1] &amp;&amp; nums[i] &gt; 0 &amp;&amp; nums[i] &lt;= len) {</span>
+          const temp = <span class="cstat-no" title="statement not covered" >nums[nums[i] - 1];</span>
+<span class="cstat-no" title="statement not covered" >          nums[nums[i] - 1] = nums[i];</span>
+<span class="cstat-no" title="statement not covered" >          nums[i] = temp;</span>
+      }
   }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >  time += duration;</span>
-<span class="cstat-no" title="statement not covered" >  return time;</span>
-};
+<span class="cstat-no" title="statement not covered" >  for (let i = <span class="cstat-no" title="statement not covered" >0;</span> i &lt; len; i++) {</span>
+<span class="cstat-no" title="statement not covered" >      if (nums[i] !== i + 1) {</span>
+<span class="cstat-no" title="statement not covered" >          return i + 1;</span>
+      }
+  }
 &nbsp;
-<span class="cstat-no" title="statement not covered" >export default findPoisonedDuration;</span></pre></td></tr></table></pre>
+  // handle [1,2,3..len]
+<span class="cstat-no" title="statement not covered" >  return len + 1;</span>
+};</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
