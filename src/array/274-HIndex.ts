@@ -1,3 +1,4 @@
+
 export const hIndex = (nums: Array<number>) => {
   const len = nums.length;
   let h = 0;
@@ -9,9 +10,9 @@ export const hIndex = (nums: Array<number>) => {
 
       // 如果nums[i]-1对应位置的元素不小于0，则设为-1，如果小于0，则减 1.
       const temp = nums[nums[i] - 1];
-      if (nums[nums[i] - 1] >= 0) {
+      if (temp >= 0) {
         nums[nums[i] - 1] = -1;
-      } else if (nums[nums[i] - 1] < 0) {
+      } else if (temp < 0) {
         nums[nums[i] - 1] -= 1;
       }
 
