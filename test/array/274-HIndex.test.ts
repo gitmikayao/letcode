@@ -1,7 +1,7 @@
 import { test, expect } from '@jest/globals';
 import { hIndex } from '@src/array/274-HIndex';
 
-test('first missing positive', () => {
+test('h index', () => {
   expect(hIndex([3, 0, 6, 1, 5])).toBe(3);
   expect(hIndex([1, 0, 0])).toBe(1);
   expect(hIndex([100])).toBe(1);

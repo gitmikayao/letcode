@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>17/17</span>
+                <span class='fraction'>0/17</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>8/8</span>
+                <span class='fraction'>0/8</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>0/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">100% </span>
+                <span class="strong">0% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>15/15</span>
+                <span class='fraction'>0/15</span>
             </div>
         
             
@@ -55,7 +55,7 @@
             Press <em>n</em> or <em>j</em> to go to the next uncovered block, <em>b</em>, <em>p</em> or <em>k</em> for the previous block.
         </p>
     </div>
-    <div class='status-line high'></div>
+    <div class='status-line low'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -87,54 +87,54 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">7x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">/**
  * @param {number[]} nums
  * @return {void} Do not return anything, modify nums in-place instead.
  */
-export const moveZeroes = (nums: Array&lt;number&gt;): Array&lt;number&gt; =&gt; {
-  const len = nums.length;
-  let cur = -1;
-  if (len == 1) {
-    return nums;
+export const <span class="cstat-no" title="statement not covered" >moveZeroes = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(</span>n</span>ums: Array&lt;number&gt;): Array&lt;number&gt; =&gt; {</span>
+  const len = <span class="cstat-no" title="statement not covered" >nums.length;</span>
+  let cur = <span class="cstat-no" title="statement not covered" >-1;</span>
+<span class="cstat-no" title="statement not covered" >  if (len == 1) {</span>
+<span class="cstat-no" title="statement not covered" >    return nums;</span>
   }
-  for (let i = 0; i &lt; len; i++) {
-    if (nums[i] === 0) {
-      if (cur &lt; 0) {
-        cur = i
+<span class="cstat-no" title="statement not covered" >  for (let i = <span class="cstat-no" title="statement not covered" >0;</span> i &lt; len; i++) {</span>
+<span class="cstat-no" title="statement not covered" >    if (nums[i] === 0) {</span>
+<span class="cstat-no" title="statement not covered" >      if (cur &lt; 0) {</span>
+<span class="cstat-no" title="statement not covered" >        cur = i</span>
       }
-      continue;
+<span class="cstat-no" title="statement not covered" >      continue;</span>
     }
 &nbsp;
-    if (cur &gt;= 0) {
-      nums[cur] = nums[i];
-      nums[i] = 0;
-      cur++
+<span class="cstat-no" title="statement not covered" >    if (cur &gt;= 0) {</span>
+<span class="cstat-no" title="statement not covered" >      nums[cur] = nums[i];</span>
+<span class="cstat-no" title="statement not covered" >      nums[i] = 0;</span>
+<span class="cstat-no" title="statement not covered" >      cur++</span>
     }
   }
 &nbsp;
-  return nums;
+<span class="cstat-no" title="statement not covered" >  return nums;</span>
 };</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
@@ -142,7 +142,7 @@ export const moveZeroes = (nums: Array&lt;number&gt;): Array&lt;number&gt; =&gt;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Mon Mar 15 2021 19:04:19 GMT+0800 (China Standard Time)
+                at Tue Mar 16 2021 20:37:47 GMT+0800 (China Standard Time)
             </div>
         </div>
         <script src="prettify.js"></script>

@@ -45,7 +45,7 @@
     "test/**/*.ts",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-  ],
+, "test/array/119-pascalTriangleII.test ts"  ],
   "exclude": [
     "node_modules"
   ]
