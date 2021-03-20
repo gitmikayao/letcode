@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1616220149389" clover="3.2.0">
-  <project timestamp="1616220149389" name="All files">
-    <metrics statements="302" coveredstatements="10" conditionals="124" coveredconditionals="4" methods="26" coveredmethods="2" elements="452" coveredelements="16" complexity="0" loc="302" ncloc="302" packages="1" files="17" classes="17"/>
+<coverage generated="1616227793437" clover="3.2.0">
+  <project timestamp="1616227793437" name="All files">
+    <metrics statements="314" coveredstatements="10" conditionals="133" coveredconditionals="7" methods="27" coveredmethods="1" elements="474" coveredelements="18" complexity="0" loc="314" ncloc="314" packages="1" files="18" classes="18"/>
     <file name="118-pascalTriangle.ts" path="/Users/mika/code/letcode/src/array/118-pascalTriangle.ts">
       <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="5" count="0" type="stmt"/>
@@ -108,6 +108,19 @@
       <line num="28" count="0" type="stmt"/>
       <line num="32" count="0" type="stmt"/>
     </file>
+    <file name="419-battleshipsInaBoard.ts" path="/Users/mika/code/letcode/src/array/419-battleshipsInaBoard.ts">
+      <metrics statements="10" coveredstatements="10" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="6" count="3" type="stmt"/>
+      <line num="7" count="12" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="10" type="stmt"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+    </file>
     <file name="442-findAllDuplicatesInAnArray.ts" path="/Users/mika/code/letcode/src/array/442-findAllDuplicatesInAnArray.ts">
       <metrics statements="21" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <line num="1" count="0" type="stmt"/>
@@ -207,17 +220,19 @@
       <line num="19" count="0" type="stmt"/>
     </file>
     <file name="598-rangeAdditionII.ts" path="/Users/mika/code/letcode/src/array/598-rangeAdditionII.ts">
-      <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="2" count="1" type="stmt"/>
-      <line num="3" count="1" type="stmt"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="10" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
+      <metrics statements="12" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="1" count="0" type="stmt"/>
+      <line num="2" count="0" type="stmt"/>
+      <line num="3" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
     </file>
     <file name="628-maximumProductOfThreeNumber.ts" path="/Users/mika/code/letcode/src/array/628-maximumProductOfThreeNumber.ts">
       <metrics statements="26" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="1" coveredmethods="0"/>
