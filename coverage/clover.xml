@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1616422213975" clover="3.2.0">
-  <project timestamp="1616422213975" name="All files">
-    <metrics statements="353" coveredstatements="13" conditionals="141" coveredconditionals="2" methods="33" coveredmethods="2" elements="527" coveredelements="17" complexity="0" loc="353" ncloc="353" packages="1" files="20" classes="20"/>
+<coverage generated="1616595584687" clover="3.2.0">
+  <project timestamp="1616595584688" name="All files">
+    <metrics statements="388" coveredstatements="33" conditionals="151" coveredconditionals="8" methods="34" coveredmethods="1" elements="573" coveredelements="42" complexity="0" loc="388" ncloc="388" packages="1" files="21" classes="21"/>
     <file name="118-pascalTriangle.ts" path="/Users/mika/code/letcode/src/array/118-pascalTriangle.ts">
       <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="5" count="0" type="stmt"/>
@@ -97,20 +97,20 @@
       <line num="26" count="0" type="stmt"/>
     </file>
     <file name="396-rotateFunction.ts" path="/Users/mika/code/letcode/src/array/396-rotateFunction.ts">
-      <metrics statements="13" coveredstatements="13" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="10" count="4" type="stmt"/>
-      <line num="11" count="4" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
-      <line num="17" count="3" type="stmt"/>
-      <line num="18" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="19" count="1" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
+      <metrics statements="13" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="23" count="0" type="stmt"/>
     </file>
     <file name="41-firstMissingPositive.ts" path="/Users/mika/code/letcode/src/array/41-firstMissingPositive.ts">
       <metrics statements="13" coveredstatements="0" conditionals="7" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -263,6 +263,44 @@
       <line num="15" count="0" type="stmt"/>
       <line num="16" count="0" type="stmt"/>
       <line num="19" count="0" type="stmt"/>
+    </file>
+    <file name="54-spiralMatrix.ts" path="/Users/mika/code/letcode/src/array/54-spiralMatrix.ts">
+      <metrics statements="35" coveredstatements="33" conditionals="10" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="8" count="4" type="cond" truecount="3" falsecount="1"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="12" count="4" type="stmt"/>
+      <line num="13" count="4" type="stmt"/>
+      <line num="14" count="4" type="stmt"/>
+      <line num="15" count="4" type="stmt"/>
+      <line num="16" count="4" type="stmt"/>
+      <line num="17" count="4" type="stmt"/>
+      <line num="18" count="4" type="stmt"/>
+      <line num="20" count="4" type="stmt"/>
+      <line num="21" count="5" type="stmt"/>
+      <line num="22" count="11" type="stmt"/>
+      <line num="23" count="11" type="stmt"/>
+      <line num="26" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="27" count="2" type="stmt"/>
+      <line num="30" count="3" type="stmt"/>
+      <line num="31" count="4" type="stmt"/>
+      <line num="32" count="4" type="stmt"/>
+      <line num="35" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="36" count="1" type="stmt"/>
+      <line num="39" count="2" type="stmt"/>
+      <line num="40" count="2" type="stmt"/>
+      <line num="41" count="2" type="stmt"/>
+      <line num="44" count="2" type="cond" truecount="1" falsecount="1"/>
+      <line num="45" count="0" type="stmt"/>
+      <line num="48" count="2" type="stmt"/>
+      <line num="49" count="3" type="stmt"/>
+      <line num="50" count="3" type="stmt"/>
+      <line num="53" count="2" type="stmt"/>
+      <line num="54" count="2" type="stmt"/>
+      <line num="55" count="2" type="stmt"/>
+      <line num="56" count="2" type="stmt"/>
+      <line num="59" count="1" type="stmt"/>
     </file>
     <file name="598-rangeAdditionII.ts" path="/Users/mika/code/letcode/src/array/598-rangeAdditionII.ts">
       <metrics statements="12" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
