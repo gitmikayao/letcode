@@ -32,6 +32,7 @@ npm test
 - [396-旋转函数](https://github.com/mika6/letcode/issues/20)
 - [54-螺旋矩阵](https://github.com/mika6/letcode/issues/21)
 - [59-螺旋矩阵II](https://github.com/mika6/letcode/issues/22)
+- [498-对角线遍历](https://github.com/mika6/letcode/issues/23)
 
 ### String
 - 
