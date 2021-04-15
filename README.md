@@ -34,7 +34,7 @@ npm test
 - [59-螺旋矩阵II](https://github.com/mika6/letcode/issues/22)
 - [498-对角线遍历](https://github.com/mika6/letcode/issues/23)
 - [566-重塑矩阵](https://github.com/mika6/letcode/issues/24)
-
+- [48-旋转矩阵](https://github.com/mika6/letcode/issues/25)
 ### String
 - 
 ### Bit Mainpulation
