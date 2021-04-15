@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1618403233065" clover="3.2.0">
-  <project timestamp="1618403233066" name="All files">
-    <metrics statements="451" coveredstatements="28" conditionals="175" coveredconditionals="16" methods="36" coveredmethods="1" elements="662" coveredelements="45" complexity="0" loc="451" ncloc="451" packages="1" files="23" classes="23"/>
-    <file name="118-pascalTriangle.ts" path="/Users/mika/code/letcode/src/array/118-pascalTriangle.ts">
+<coverage generated="1618449967060" clover="3.2.0">
+  <project timestamp="1618449967060" name="All files">
+    <metrics statements="465" coveredstatements="13" conditionals="179" coveredconditionals="3" methods="37" coveredmethods="1" elements="681" coveredelements="17" complexity="0" loc="465" ncloc="465" packages="1" files="24" classes="24"/>
+    <file name="118-pascalTriangle.ts" path="E:\code\letcode\src\array\118-pascalTriangle.ts">
       <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="5" count="0" type="stmt"/>
       <line num="6" count="0" type="stmt"/>
@@ -14,7 +14,7 @@
       <line num="13" count="0" type="stmt"/>
       <line num="16" count="0" type="stmt"/>
     </file>
-    <file name="119-pascalTriangleII.ts" path="/Users/mika/code/letcode/src/array/119-pascalTriangleII.ts">
+    <file name="119-pascalTriangleII.ts" path="E:\code\letcode\src\array\119-pascalTriangleII.ts">
       <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="5" count="0" type="stmt"/>
       <line num="6" count="0" type="stmt"/>
@@ -23,7 +23,7 @@
       <line num="9" count="0" type="stmt"/>
       <line num="13" count="0" type="stmt"/>
     </file>
-    <file name="189-rotateArray.ts" path="/Users/mika/code/letcode/src/array/189-rotateArray.ts">
+    <file name="189-rotateArray.ts" path="E:\code\letcode\src\array\189-rotateArray.ts">
       <metrics statements="26" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="0"/>
       <line num="1" count="0" type="stmt"/>
       <line num="2" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -52,7 +52,7 @@
       <line num="37" count="0" type="stmt"/>
       <line num="41" count="0" type="stmt"/>
     </file>
-    <file name="274-HIndex.ts" path="/Users/mika/code/letcode/src/array/274-HIndex.ts">
+    <file name="274-HIndex.ts" path="E:\code\letcode\src\array\274-HIndex.ts">
       <metrics statements="23" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="2" count="0" type="stmt"/>
       <line num="3" count="0" type="stmt"/>
@@ -78,7 +78,7 @@
       <line num="35" count="0" type="stmt"/>
       <line num="39" count="0" type="stmt"/>
     </file>
-    <file name="283-moveZeros.ts" path="/Users/mika/code/letcode/src/array/283-moveZeros.ts">
+    <file name="283-moveZeros.ts" path="E:\code\letcode\src\array\283-moveZeros.ts">
       <metrics statements="15" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="5" count="0" type="stmt"/>
       <line num="6" count="0" type="stmt"/>
@@ -96,7 +96,7 @@
       <line num="22" count="0" type="stmt"/>
       <line num="26" count="0" type="stmt"/>
     </file>
-    <file name="396-rotateFunction.ts" path="/Users/mika/code/letcode/src/array/396-rotateFunction.ts">
+    <file name="396-rotateFunction.ts" path="E:\code\letcode\src\array\396-rotateFunction.ts">
       <metrics statements="13" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <line num="5" count="0" type="stmt"/>
       <line num="6" count="0" type="stmt"/>
@@ -112,7 +112,7 @@
       <line num="19" count="0" type="stmt"/>
       <line num="23" count="0" type="stmt"/>
     </file>
-    <file name="41-firstMissingPositive.ts" path="/Users/mika/code/letcode/src/array/41-firstMissingPositive.ts">
+    <file name="41-firstMissingPositive.ts" path="E:\code\letcode\src\array\41-firstMissingPositive.ts">
       <metrics statements="13" coveredstatements="0" conditionals="7" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="1" count="0" type="stmt"/>
       <line num="2" count="0" type="stmt"/>
@@ -128,7 +128,7 @@
       <line num="18" count="0" type="stmt"/>
       <line num="23" count="0" type="stmt"/>
     </file>
-    <file name="414-thirdMaximumNumber.ts" path="/Users/mika/code/letcode/src/array/414-thirdMaximumNumber.ts">
+    <file name="414-thirdMaximumNumber.ts" path="E:\code\letcode\src\array\414-thirdMaximumNumber.ts">
       <metrics statements="22" coveredstatements="0" conditionals="19" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="1" count="0" type="stmt"/>
       <line num="2" count="0" type="stmt"/>
@@ -153,7 +153,7 @@
       <line num="28" count="0" type="stmt"/>
       <line num="32" count="0" type="stmt"/>
     </file>
-    <file name="419-battleshipsInaBoard.ts" path="/Users/mika/code/letcode/src/array/419-battleshipsInaBoard.ts">
+    <file name="419-battleshipsInaBoard.ts" path="E:\code\letcode\src\array\419-battleshipsInaBoard.ts">
       <metrics statements="10" coveredstatements="0" conditionals="7" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="1" count="0" type="stmt"/>
       <line num="2" count="0" type="stmt"/>
@@ -166,7 +166,7 @@
       <line num="15" count="0" type="stmt"/>
       <line num="19" count="0" type="stmt"/>
     </file>
-    <file name="442-findAllDuplicatesInAnArray.ts" path="/Users/mika/code/letcode/src/array/442-findAllDuplicatesInAnArray.ts">
+    <file name="442-findAllDuplicatesInAnArray.ts" path="E:\code\letcode\src\array\442-findAllDuplicatesInAnArray.ts">
       <metrics statements="21" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <line num="1" count="0" type="stmt"/>
       <line num="2" count="0" type="stmt"/>
@@ -190,7 +190,7 @@
       <line num="29" count="0" type="stmt"/>
       <line num="33" count="0" type="stmt"/>
     </file>
-    <file name="448-findAllNumbersDisappearedInAnArray.ts" path="/Users/mika/code/letcode/src/array/448-findAllNumbersDisappearedInAnArray.ts">
+    <file name="448-findAllNumbersDisappearedInAnArray.ts" path="E:\code\letcode\src\array\448-findAllNumbersDisappearedInAnArray.ts">
       <metrics statements="28" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <line num="1" count="0" type="stmt"/>
       <line num="2" count="0" type="stmt"/>
@@ -221,7 +221,7 @@
       <line num="38" count="0" type="stmt"/>
       <line num="42" count="0" type="stmt"/>
     </file>
-    <file name="453-minimumMovesToEqualArrayElements.ts" path="/Users/mika/code/letcode/src/array/453-minimumMovesToEqualArrayElements.ts">
+    <file name="453-minimumMovesToEqualArrayElements.ts" path="E:\code\letcode\src\array\453-minimumMovesToEqualArrayElements.ts">
       <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="1" count="0" type="stmt"/>
       <line num="2" count="0" type="stmt"/>
@@ -233,7 +233,7 @@
       <line num="10" count="0" type="stmt"/>
       <line num="13" count="0" type="stmt"/>
     </file>
-    <file name="485-maxConsecutiveOnes.ts" path="/Users/mika/code/letcode/src/array/485-maxConsecutiveOnes.ts">
+    <file name="485-maxConsecutiveOnes.ts" path="E:\code\letcode\src\array\485-maxConsecutiveOnes.ts">
       <metrics statements="13" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="1" count="0" type="stmt"/>
       <line num="2" count="0" type="stmt"/>
@@ -249,7 +249,7 @@
       <line num="19" count="0" type="stmt"/>
       <line num="23" count="0" type="stmt"/>
     </file>
-    <file name="495-TeemoAttacking.ts" path="/Users/mika/code/letcode/src/array/495-TeemoAttacking.ts">
+    <file name="495-teemoAttacking.ts" path="E:\code\letcode\src\array\495-teemoAttacking.ts">
       <metrics statements="12" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="1" count="0" type="stmt"/>
       <line num="2" count="0" type="stmt"/>
@@ -264,38 +264,38 @@
       <line num="16" count="0" type="stmt"/>
       <line num="19" count="0" type="stmt"/>
     </file>
-    <file name="498-DiagonalTraverse.ts" path="/Users/mika/code/letcode/src/array/498-DiagonalTraverse.ts">
-      <metrics statements="28" coveredstatements="28" conditionals="16" coveredconditionals="16" methods="1" coveredmethods="1"/>
-      <line num="5" count="1" type="stmt"/>
-      <line num="6" count="1" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="10" count="1" type="stmt"/>
-      <line num="11" count="1" type="stmt"/>
-      <line num="12" count="1" type="stmt"/>
-      <line num="13" count="1" type="cond" truecount="2" falsecount="0"/>
-      <line num="14" count="9" type="stmt"/>
-      <line num="16" count="9" type="stmt"/>
-      <line num="17" count="9" type="stmt"/>
-      <line num="18" count="9" type="cond" truecount="2" falsecount="0"/>
-      <line num="19" count="5" type="stmt"/>
-      <line num="20" count="5" type="stmt"/>
-      <line num="22" count="4" type="stmt"/>
-      <line num="23" count="4" type="stmt"/>
-      <line num="26" count="9" type="cond" truecount="6" falsecount="0"/>
-      <line num="27" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="28" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="29" count="2" type="stmt"/>
-      <line num="31" count="1" type="stmt"/>
-      <line num="34" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="35" count="1" type="stmt"/>
-      <line num="37" count="1" type="stmt"/>
-      <line num="42" count="5" type="stmt"/>
-      <line num="44" count="4" type="stmt"/>
-      <line num="45" count="4" type="stmt"/>
-      <line num="49" count="1" type="stmt"/>
+    <file name="498-DiagonalTraverse.ts" path="E:\code\letcode\src\array\498-DiagonalTraverse.ts">
+      <metrics statements="28" coveredstatements="0" conditionals="16" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="5" count="0" type="stmt"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="7" count="0" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="16" count="0" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="23" count="0" type="stmt"/>
+      <line num="26" count="0" type="cond" truecount="0" falsecount="6"/>
+      <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+      <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="35" count="0" type="stmt"/>
+      <line num="37" count="0" type="stmt"/>
+      <line num="42" count="0" type="stmt"/>
+      <line num="44" count="0" type="stmt"/>
+      <line num="45" count="0" type="stmt"/>
+      <line num="49" count="0" type="stmt"/>
     </file>
-    <file name="54-spiralMatrix.ts" path="/Users/mika/code/letcode/src/array/54-spiralMatrix.ts">
+    <file name="54-spiralMatrix.ts" path="E:\code\letcode\src\array\54-spiralMatrix.ts">
       <metrics statements="35" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="5" count="0" type="stmt"/>
       <line num="6" count="0" type="stmt"/>
@@ -333,7 +333,24 @@
       <line num="56" count="0" type="stmt"/>
       <line num="59" count="0" type="stmt"/>
     </file>
-    <file name="59-spiralMatrixII.ts" path="/Users/mika/code/letcode/src/array/59-spiralMatrixII.ts">
+    <file name="566-reshapeTheMatrix.ts" path="E:\code\letcode\src\array\566-reshapeTheMatrix.ts">
+      <metrics statements="14" coveredstatements="13" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="11" count="1" type="cond" truecount="1" falsecount="1"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="14" count="1" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="16" count="1" type="stmt"/>
+      <line num="17" count="2" type="stmt"/>
+      <line num="18" count="6" type="stmt"/>
+      <line num="19" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="20" count="3" type="stmt"/>
+      <line num="21" count="3" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
+    </file>
+    <file name="59-spiralMatrixII.ts" path="E:\code\letcode\src\array\59-spiralMatrixII.ts">
       <metrics statements="35" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="5" count="0" type="stmt"/>
       <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
@@ -371,7 +388,7 @@
       <line num="55" count="0" type="stmt"/>
       <line num="58" count="0" type="stmt"/>
     </file>
-    <file name="598-rangeAdditionII.ts" path="/Users/mika/code/letcode/src/array/598-rangeAdditionII.ts">
+    <file name="598-rangeAdditionII.ts" path="E:\code\letcode\src\array\598-rangeAdditionII.ts">
       <metrics statements="12" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <line num="1" count="0" type="stmt"/>
       <line num="2" count="0" type="stmt"/>
@@ -386,7 +403,7 @@
       <line num="15" count="0" type="stmt"/>
       <line num="19" count="0" type="stmt"/>
     </file>
-    <file name="628-maximumProductOfThreeNumber.ts" path="/Users/mika/code/letcode/src/array/628-maximumProductOfThreeNumber.ts">
+    <file name="628-maximumProductOfThreeNumber.ts" path="E:\code\letcode\src\array\628-maximumProductOfThreeNumber.ts">
       <metrics statements="26" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="1" count="0" type="stmt"/>
       <line num="2" count="0" type="stmt"/>
@@ -415,7 +432,7 @@
       <line num="31" count="0" type="stmt"/>
       <line num="34" count="0" type="stmt"/>
     </file>
-    <file name="645-setMismatch.ts" path="/Users/mika/code/letcode/src/array/645-setMismatch.ts">
+    <file name="645-setMismatch.ts" path="E:\code\letcode\src\array\645-setMismatch.ts">
       <metrics statements="33" coveredstatements="0" conditionals="22" coveredconditionals="0" methods="5" coveredmethods="0"/>
       <line num="1" count="0" type="stmt"/>
       <line num="2" count="0" type="stmt"/>
@@ -451,7 +468,7 @@
       <line num="50" count="0" type="stmt"/>
       <line num="57" count="0" type="stmt"/>
     </file>
-    <file name="661-imageSmoother.ts" path="/Users/mika/code/letcode/src/array/661-imageSmoother.ts">
+    <file name="661-imageSmoother.ts" path="E:\code\letcode\src\array\661-imageSmoother.ts">
       <metrics statements="17" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="5" count="0" type="stmt"/>
       <line num="6" count="0" type="stmt"/>
@@ -471,7 +488,7 @@
       <line num="27" count="0" type="stmt"/>
       <line num="30" count="0" type="stmt"/>
     </file>
-    <file name="665-non-decreasingArray.ts" path="/Users/mika/code/letcode/src/array/665-non-decreasingArray.ts">
+    <file name="665-non-decreasingArray.ts" path="E:\code\letcode\src\array\665-non-decreasingArray.ts">
       <metrics statements="18" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <line num="5" count="0" type="stmt"/>
       <line num="6" count="0" type="stmt"/>
@@ -492,7 +509,7 @@
       <line num="28" count="0" type="stmt"/>
       <line num="32" count="0" type="stmt"/>
     </file>
-    <file name="697-degreeOfAnArray.ts" path="/Users/mika/code/letcode/src/array/697-degreeOfAnArray.ts">
+    <file name="697-degreeOfAnArray.ts" path="E:\code\letcode\src\array\697-degreeOfAnArray.ts">
       <metrics statements="27" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="3" coveredmethods="0"/>
       <line num="1" count="0" type="stmt"/>
       <line num="2" count="0" type="cond" truecount="0" falsecount="2"/>
