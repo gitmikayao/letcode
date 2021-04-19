@@ -35,7 +35,8 @@ npm test
 - [498-对角线遍历](https://github.com/mika6/letcode/issues/23)
 - [566-重塑矩阵](https://github.com/mika6/letcode/issues/24)
 - [48-旋转矩阵](https://github.com/mika6/letcode/issues/25)
-- [48-矩阵置零](https://github.com/mika6/letcode/issues/26)
+- [73-矩阵置零](https://github.com/mika6/letcode/issues/26)
+- [289-生命游戏](https://github.com/mika6/letcode/issues/27)
 ### String
 - 
 ### Bit Mainpulation
