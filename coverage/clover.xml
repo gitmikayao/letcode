@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1618834335642" clover="3.2.0">
-  <project timestamp="1618834335642" name="All files">
+<coverage generated="1618882350297" clover="3.2.0">
+  <project timestamp="1618882350297" name="All files">
     <metrics statements="542" coveredstatements="27" conditionals="218" coveredconditionals="25" methods="41" coveredmethods="1" elements="801" coveredelements="53" complexity="0" loc="542" ncloc="542" packages="1" files="27" classes="27"/>
     <file name="118-pascalTriangle.ts" path="E:\code\letcode\src\array\118-pascalTriangle.ts">
       <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
@@ -104,27 +104,27 @@
       <line num="8" count="2" type="stmt"/>
       <line num="10" count="2" type="stmt"/>
       <line num="11" count="6" type="stmt"/>
+      <line num="13" count="16" type="stmt"/>
       <line num="14" count="16" type="stmt"/>
-      <line num="15" count="16" type="stmt"/>
-      <line num="16" count="48" type="stmt"/>
-      <line num="17" count="144" type="cond" truecount="4" falsecount="0"/>
-      <line num="18" count="16" type="stmt"/>
+      <line num="15" count="48" type="stmt"/>
+      <line num="16" count="144" type="cond" truecount="4" falsecount="0"/>
+      <line num="17" count="16" type="stmt"/>
+      <line num="20" count="128" type="stmt"/>
       <line num="21" count="128" type="stmt"/>
-      <line num="22" count="128" type="stmt"/>
-      <line num="24" count="128" type="cond" truecount="2" falsecount="0"/>
-      <line num="31" count="37" type="stmt"/>
-      <line num="37" count="16" type="cond" truecount="5" falsecount="0"/>
-      <line num="38" count="2" type="stmt"/>
-      <line num="42" count="16" type="cond" truecount="4" falsecount="0"/>
-      <line num="43" count="3" type="stmt"/>
-      <line num="49" count="2" type="stmt"/>
-      <line num="50" count="6" type="stmt"/>
-      <line num="51" count="16" type="stmt"/>
-      <line num="52" count="16" type="cond" truecount="2" falsecount="0"/>
-      <line num="53" count="2" type="stmt"/>
-      <line num="54" count="14" type="cond" truecount="2" falsecount="0"/>
-      <line num="55" count="3" type="stmt"/>
-      <line num="60" count="2" type="stmt"/>
+      <line num="23" count="128" type="cond" truecount="2" falsecount="0"/>
+      <line num="30" count="37" type="stmt"/>
+      <line num="36" count="16" type="cond" truecount="5" falsecount="0"/>
+      <line num="37" count="2" type="stmt"/>
+      <line num="41" count="16" type="cond" truecount="4" falsecount="0"/>
+      <line num="42" count="3" type="stmt"/>
+      <line num="48" count="2" type="stmt"/>
+      <line num="49" count="6" type="stmt"/>
+      <line num="50" count="16" type="stmt"/>
+      <line num="51" count="16" type="cond" truecount="2" falsecount="0"/>
+      <line num="52" count="2" type="stmt"/>
+      <line num="53" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="54" count="3" type="stmt"/>
+      <line num="59" count="2" type="stmt"/>
     </file>
     <file name="396-rotateFunction.ts" path="E:\code\letcode\src\array\396-rotateFunction.ts">
       <metrics statements="13" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
