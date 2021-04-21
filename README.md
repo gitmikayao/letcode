@@ -39,7 +39,9 @@ npm test
 - [289-生命游戏](https://github.com/mika6/letcode/issues/27)
 - [303-区域和检索-数组不可变](https://github.com/mika6/letcode/issues/28)
 - [304-区域和检索-数组不可变](https://github.com/mika6/letcode/issues/29)
+- [328-奇偶链表](https://github.com/mika6/letcode/issues/30)
 ### String
+- [520-检测大写字母](https://github.com/mika6/letcode/issues/31)
 - 
 ### Bit Mainpulation
 - 
