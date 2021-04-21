@@ -38,6 +38,7 @@ npm test
 - [73-矩阵置零](https://github.com/mika6/letcode/issues/26)
 - [289-生命游戏](https://github.com/mika6/letcode/issues/27)
 - [303-区域和检索-数组不可变](https://github.com/mika6/letcode/issues/28)
+- [304-区域和检索-数组不可变](https://github.com/mika6/letcode/issues/29)
 ### String
 - 
 ### Bit Mainpulation
