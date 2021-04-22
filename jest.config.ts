@@ -4,13 +4,13 @@ import path from 'path';
 const config: Config.InitialOptions = {
   verbose: true,
   preset: "ts-jest",
-  collectCoverage: true,
+  collectCoverage: false,
   collectCoverageFrom: [
     "src/**/!(*.d).{js,ts}",
   ],
 
   rootDir: path.join(__dirname),
-  testMatch: ["<rootDir>/test/**/14*.(spec|test).(t|j)s"],
+  testMatch: ["<rootDir>/test/**/434*.(spec|test).(t|j)s"],
   transform: {
     "^.+\\.js$": "babel-jest",
     "^.+\\.ts$": "ts-jest"
