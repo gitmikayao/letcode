@@ -43,7 +43,8 @@ npm test
 ### String
 - [520-检测大写字母](https://github.com/mika6/letcode/issues/31)
 - [125-验证回文字符串](https://github.com/mika6/letcode/issues/32)
-- 
+- [14-最长公共前缀](https://github.com/mika6/letcode/issues/33)
+
 ### Bit Mainpulation
 - 
 ### Stack And Recursion
