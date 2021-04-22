@@ -42,6 +42,7 @@ npm test
 - [328-奇偶链表](https://github.com/mika6/letcode/issues/30)
 ### String
 - [520-检测大写字母](https://github.com/mika6/letcode/issues/31)
+- [125-验证回文字符串](https://github.com/mika6/letcode/issues/32)
 - 
 ### Bit Mainpulation
 - 
