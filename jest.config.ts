@@ -10,7 +10,7 @@ const config: Config.InitialOptions = {
   ],
 
   rootDir: path.join(__dirname),
-  testMatch: ["<rootDir>/test/**/434*.(spec|test).(t|j)s"],
+  testMatch: ["<rootDir>/test/**/58*.(spec|test).(t|j)s"],
   transform: {
     "^.+\\.js$": "babel-jest",
     "^.+\\.ts$": "ts-jest"
