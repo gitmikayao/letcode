@@ -46,6 +46,7 @@ npm test
 - [14-最长公共前缀](https://github.com/mika6/letcode/issues/33)
 - [434-字符串中的单词](https://github.com/mika6/letcode/issues/34)
 - [58-最后一个单词的长度](https://github.com/mika6/letcode/issues/35)
+- [344-反转字符串](https://github.com/mika6/letcode/issues/36)
 
 ### Bit Mainpulation
 - 
