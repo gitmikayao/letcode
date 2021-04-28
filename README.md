@@ -52,6 +52,7 @@ npm test
 - [557-反转字符串里的单词](https://github.com/mika6/letcode/issues/39)
 - [387-字符串中的第一个唯一字符](https://github.com/mika6/letcode/issues/40)
 - [389-找不同](https://github.com/mika6/letcode/issues/41)
+- [383-赎金信](https://github.com/mika6/letcode/issues/42)
 
 ### Bit Mainpulation
 - 
