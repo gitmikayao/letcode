@@ -53,6 +53,8 @@ npm test
 - [387-字符串中的第一个唯一字符](https://github.com/mika6/letcode/issues/40)
 - [389-找不同](https://github.com/mika6/letcode/issues/41)
 - [383-赎金信](https://github.com/mika6/letcode/issues/42)
+- [242-有效字母异位词](https://github.com/mika6/letcode/issues/43)
+- [49-字母异位词分组](https://github.com/mika6/letcode/issues/44)
 
 ### Bit Mainpulation
 - 
