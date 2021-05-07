@@ -55,6 +55,8 @@ npm test
 - [383-赎金信](https://github.com/mika6/letcode/issues/42)
 - [242-有效字母异位词](https://github.com/mika6/letcode/issues/43)
 - [49-字母异位词分组](https://github.com/mika6/letcode/issues/44)
+- [451-根据字符出现频率排序](https://github.com/mika6/letcode/issues/45)
+- [423-从英文中重建数字](https://github.com/mika6/letcode/issues/46)
 
 ### Bit Mainpulation
 - 
